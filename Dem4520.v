@@ -67,7 +67,7 @@ module Test;
   
   Dem20 D(.clk(clk),.q(q),.ra(ra));
   initial begin
-    clk=0;
+    clk=1;
     repeat(200) #20 clk = ~clk;
   end
 endmodule
